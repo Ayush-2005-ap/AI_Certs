@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 
 export default function App() {
-  // Use your live Render backend URL
+  
   const API = "https://ai-certs-xa7x.onrender.com";
 
   const [text, setText] = useState("");
